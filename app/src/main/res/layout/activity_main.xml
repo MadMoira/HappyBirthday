@@ -6,22 +6,31 @@
     android:layout_height="match_parent"
     tools:context="com.example.mirag.happybirthday.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android_party"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:text="Happy Birthday Myself!!" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/android_party"/>
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:text="Happy Birthday, Myself!!" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
         android:text="From Camilo"/>
 </RelativeLayout>
